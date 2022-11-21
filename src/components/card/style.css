@@ -1,0 +1,21 @@
+.container-cards-meals {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+gap: 2rem;
+padding: 1rem;
+}
+
+.meal-card {
+  align-items: center;
+  border: 2px solid rgb(141, 106, 141);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.meal-card img {
+  height:150px;
+  width:150px;
+  border-radius: 1rem;
+}
